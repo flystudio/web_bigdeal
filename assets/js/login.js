@@ -71,7 +71,7 @@ $(function () {
                 // 将登录成功的token字符串 保存到localstorage
                 localStorage.setItem('token', res.token)
                 // 跳转到后台
-                location.href = 'http://www.liulongbin.top:3007/index.html'
+                location.href = 'http://127.0.0.1:5500/bigdeal/index.html'
             }
         })
     })
